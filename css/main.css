@@ -95,7 +95,7 @@ body {
 .heading h1 {
   display: block;
   font-weight: 900;
-  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  font-family: 'PFAGORASANSPRO-BLACK', 'PFAGORASANSPRO-BOLD', sans-serif;
   font-size: 65px;
   line-height: 60px;
   max-width: 415px;
@@ -106,7 +106,7 @@ body {
   margin-bottom: 10px;
 }
 .heading .price {
-  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  font-family: 'PFAGORASANSPRO-BLACK', 'PFAGORASANSPRO-BOLD', sans-serif;
   font-size: 86px;
   margin: 40px 0 45px;
   position: relative;
@@ -153,12 +153,12 @@ body {
           transform: translateY(-50%);
 }
 .product-section .heading {
-  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  font-family: 'PFAGORASANSPRO-BLACK', 'PFAGORASANSPRO-BOLD', sans-serif;
   text-align: center;
   font-size: 50px;
 }
 .product-section .product-heading {
-  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  font-family: 'PFAGORASANSPRO-BLACK', 'PFAGORASANSPRO-BOLD', sans-serif;
   text-align: center;
 }
 .product-section .product-heading h1 {
@@ -185,7 +185,7 @@ body {
   position: relative;
 }
 .products h1 {
-  font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+  font-family: "PFAGORASANSPRO-BLACK", 'PFAGORASANSPRO-BOLD', sans-serif;
   font-size: 30px;
 }
 .products h2 {
@@ -211,7 +211,7 @@ body {
   margin-top: 40px;
 }
 .strong {
-  font-family: "PFAGORASANSPRO-Black";
+  font-family: "PFAGORASANSPRO-BLACK", 'PFAGORASANSPRO-BOLD', sans-serif;
   font-weight: 900;
 }
 .reviews {
@@ -310,7 +310,7 @@ body {
   transition: all 0.2s ease-out;
 }
 .red-heading {
-  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  font-family: 'PFAGORASANSPRO-BLACK', 'PFAGORASANSPRO-BOLD', sans-serif;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -346,7 +346,7 @@ body {
   margin-right: 5px;
 }
 .features .feature .feature-name {
-  font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+  font-family: "PFAGORASANSPRO-BLACK", 'PFAGORASANSPRO-BOLD', sans-serif;
   font-size: 28px;
 }
 .features .feature .feature-value {
@@ -389,7 +389,7 @@ body {
 .pros {
   margin: 0px auto 75px;
   max-width: 900px;
-  font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+  font-family: "PFAGORASANSPRO-BLACK", 'PFAGORASANSPRO-BOLD', sans-serif;
   font-size: 30px;
   line-height: 50px;
 }
@@ -406,7 +406,7 @@ body {
   background-color: #d4d4d4;
 }
 .you-get {
-  font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+  font-family: "PFAGORASANSPRO-BLACK", 'PFAGORASANSPRO-BOLD', sans-serif;
   font-size: 35px;
   margin-left: 30px;
   margin-bottom: 50px;
@@ -428,7 +428,7 @@ body {
   font-size: 25px;
 }
 .block .price {
-  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  font-family: 'PFAGORASANSPRO-BLACK', 'PFAGORASANSPRO-BOLD', sans-serif;
   font-size: 50px;
   margin: 0 0 15px;
 }
@@ -439,7 +439,7 @@ body {
   max-width: 980px;
   margin: 0 auto 90px;
   text-align: center;
-  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  font-family: 'PFAGORASANSPRO-BLACK', 'PFAGORASANSPRO-BOLD', sans-serif;
   font-size: 45px;
   line-height: 45px;
   padding: 15px 10px;
@@ -520,7 +520,7 @@ body {
           align-items: center;
 }
 .form-header h1 {
-  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  font-family: 'PFAGORASANSPRO-BLACK', 'PFAGORASANSPRO-BOLD', sans-serif;
   font-size: 45px;
   line-height: 45px;
   padding-top: 30px;

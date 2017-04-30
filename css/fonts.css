@@ -9,15 +9,39 @@
     src: url(../fonts/PFAgoraSlabPro-Bold.ttf);
 }
 
-@font-face { 
-    font-family: 'PFAGORASANSPRO-LIGHT';
-    src: url(../fonts/PFAGORASANSPRO-LIGHT.ttf);
+
+@font-face {
+    font-family: "PFAGORASANSPRO-LIGHT";
+    src: url("../fonts/PFAGORASANSPRO-LIGHT/PFAGORASANSPRO-LIGHT/pfagorasanspro-light.eot");
+    src: url("../fonts/PFAGORASANSPRO-LIGHT/PFAGORASANSPRO-LIGHT/pfagorasanspro-light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PFAGORASANSPRO-LIGHT/PFAGORASANSPRO-LIGHT/pfagorasanspro-light.woff") format("woff"),
+    url("../fonts/PFAGORASANSPRO-LIGHT/PFAGORASANSPRO-LIGHT/pfagorasanspro-light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
-@font-face { 
-    font-family: 'PFAGORASANSPRO-MEDIUM';
-    src: url(../fonts/PFAGORASANSPRO-MEDIUM.ttf);
+
+@font-face {
+    font-family: "PFAGORASANSPRO-MEDIUM";
+    src: url("../fonts/PFAGORASANSPRO-MEDIUM/PFAGORASANSPRO-MEDIUM/pfagorasanspro-medium.eot");
+    src: url("../fonts/PFAGORASANSPRO-MEDIUM/PFAGORASANSPRO-MEDIUM/pfagorasanspro-medium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PFAGORASANSPRO-MEDIUM/PFAGORASANSPRO-MEDIUM/pfagorasanspro-medium.woff") format("woff"),
+    url("../fonts/PFAGORASANSPRO-MEDIUM/PFAGORASANSPRO-MEDIUM/pfagorasanspro-medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
+
+@font-face {
+    font-family: "PFAGORASANSPRO-BOLD";
+    src: url("../fonts/PFAGORASANSPRO-BOLD/PFAGORASANSPRO-BOLD/pfagorasanspro-bold.eot");
+    src: url("../fonts/PFAGORASANSPRO-BOLD/PFAGORASANSPRO-BOLD/pfagorasanspro-bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PFAGORASANSPRO-BOLD/PFAGORASANSPRO-BOLD/pfagorasanspro-bold.woff") format("woff"),
+    url("../fonts/PFAGORASANSPRO-BOLD/PFAGORASANSPRO-BOLD/pfagorasanspro-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
 
 @font-face { 
     font-family: 'PFAGORASANSPRO-BLACK';
