@@ -574,12 +574,15 @@
     margin-left: 10px;
     margin-bottom: 20px;
   }
+  .heading {
+    margin-left: 0px;
+  }
   .heading h1 {
     font-size: 50px;
     line-height: 45px;
   }
   .heading .price {
-    font-size: 75px;
+    font-size: 60px;
     margin: 25px 0 30px;
   }
   .top-btn {
@@ -608,6 +611,12 @@
     font-size: 20px;
     font-family: "PFAGORASANSPRO-MEDIUM", sans-serif;
     font-weight: 600;
+  }
+  .products .image {
+    margin: -25px auto 10px;
+  }
+  .products .image img {
+    width: 85%;
   }
   .products h1 {
     font-family: "PFAGORASANSPRO-BLACK", sans-serif;
@@ -796,6 +805,9 @@
     font-weight: 500;
     color: #fff;
     text-decoration: underline;
+  }
+  .menu-items a {
+    font-size: 32px;
   }
 }
 /* Custom, iPhone Retina */

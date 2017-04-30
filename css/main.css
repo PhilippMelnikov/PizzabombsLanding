@@ -215,7 +215,7 @@ body {
   font-weight: 900;
 }
 .reviews {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .review {
   margin-right: -20px;
@@ -388,7 +388,7 @@ body {
 }
 .pros {
   margin: 0px auto 75px;
-  max-width: 900px;
+  max-width: 736px;
   font-family: "PFAGORASANSPRO-BLACK", 'PFAGORASANSPRO-BOLD', sans-serif;
   font-size: 30px;
   line-height: 50px;
