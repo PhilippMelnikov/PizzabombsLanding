@@ -87,6 +87,7 @@ body {
 .top-section {
   background: url(../img/background/bg-header.jpg);
   background-size: cover;
+  margin-top: 60px;
 }
 .heading {
   color: #fff;
