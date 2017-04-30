@@ -73,7 +73,7 @@ $(window).resize(function() {
    $('.anchor').click(function () {
   		var hrefName = $(this).attr('href');
 		$('html, body').animate({
-	        scrollTop: $(hrefName).offset().top
+	        scrollTop: $(hrefName).offset().top - 20
 	    }, 600);
 	});
 
