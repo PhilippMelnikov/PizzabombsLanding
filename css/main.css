@@ -1,0 +1,705 @@
+body {
+  font-family: "PFAGORASANSPRO-MEDIUM", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  background: #fff;
+}
+.my-container {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.top-header {
+  background-color: #2b2b2b;
+}
+.head {
+  padding: 10px 0px;
+}
+.logo {
+  float: left;
+  display: block;
+}
+.logo img {
+  height: 40px;
+}
+.nav-menu {
+  float: right;
+  padding-right: 10px;
+  color: #fff;
+}
+.nav-menu ul {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.nav-menu ul li {
+  float: left;
+  margin-right: 50px;
+}
+.nav-menu ul li a {
+  font-size: 13px;
+  line-height: 40px;
+  height: 40px;
+  padding: 10px 5px;
+  color: #fff;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.nav-menu ul li a:hover {
+  color: #ccc;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+.phone-number,
+.language-selector-container {
+  float: right;
+  color: #fff;
+  font-size: 13px;
+  line-height: 40px;
+}
+.phone-number a,
+.language-selector-container a {
+  color: #fff;
+}
+.language-selector-container {
+  margin-left: 10px;
+}
+.language-selector {
+  position: relative;
+}
+.language-selector .ru {
+  margin-right: 8px;
+}
+.language-selector .divider {
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  content: "";
+  width: 0px;
+  left: 50%;
+  border-right: 1px solid #fff;
+}
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.top-section {
+  background: url(../img/background/bg-header.jpg);
+  background-size: cover;
+}
+.heading {
+  color: #fff;
+  margin-bottom: 60px;
+}
+.heading h1 {
+  display: block;
+  font-weight: 900;
+  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  font-size: 65px;
+  line-height: 60px;
+  max-width: 415px;
+  margin-bottom: 30px;
+}
+.heading p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.heading .price {
+  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  font-size: 86px;
+  margin: 40px 0 45px;
+  position: relative;
+}
+.heading .price::before {
+  position: absolute;
+  background: url(../img/png/h-just.png) 0 0 no-repeat;
+  left: -150px;
+  top: -45px;
+  content: "";
+  width: 151px;
+  height: 135px;
+}
+.special-red {
+  color: #cb292c;
+}
+.top-btn {
+  display: block;
+  width: 300px;
+  height: 55px;
+  line-height: 55px;
+  background: #fff;
+  margin: 40px auto 10px auto;
+  color: #000;
+  font-size: 25px;
+  font-family: 'PFAGORASANSPRO-LIGHT', sans-serif;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.top-btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #cb292c;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.leaf2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.product-section .heading {
+  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+.product-section .product-heading {
+  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  text-align: center;
+}
+.product-section .product-heading h1 {
+  font-size: 35px;
+}
+.product-section .product-heading h1 img {
+  width: 40px;
+}
+.product-section .product-heading h2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 25px;
+  font-family: "PFAGORASANSPRO-LIGHT", sans-serif;
+}
+.leaf1 {
+  position: absolute;
+  top: 0;
+  left: -50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.products .product-description {
+  position: relative;
+}
+.products h1 {
+  font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+  font-size: 30px;
+}
+.products h2 {
+  position: relative;
+  font-family: "PFAGORASANSPRO-MEDIUM", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-top: 10px;
+}
+.products h2::before {
+  position: absolute;
+  background: url(../img/png/arrow-they_sell.png) 0 0 no-repeat;
+  right: -12px;
+  top: 0px;
+  content: "";
+  width: 41px;
+  height: 88px;
+}
+.products img {
+  width: 95%;
+  height: 100%;
+  margin-top: 40px;
+}
+.strong {
+  font-family: "PFAGORASANSPRO-Black";
+  font-weight: 900;
+}
+.reviews {
+  margin-top: 80px;
+}
+.review {
+  margin-right: -20px;
+}
+.star-number {
+  width: 92px;
+  height: 30px;
+  line-height: 30px;
+  -webkit-border-radius: 40px;
+          border-radius: 40px;
+  background-color: #1dbf60;
+  text-align: right;
+  padding: 0px 15px;
+  margin: 12px 0;
+  font-size: 18px;
+  color: #fff;
+  margin-left: 5px;
+}
+.avatar-section {
+  width: 100%;
+  background: rgba(240, 241, 242, 0.7);
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+}
+.avatar {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.avatar img {
+  width: 40px;
+}
+.user-description {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+.user-description .name {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.user-description .user-rate {
+  font-size: 12px;
+}
+.review-text {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  padding-right: 30px;
+}
+.in-between-section {
+  background-color: #2b2b2b;
+  padding: 75px 0;
+}
+.in-between-section p {
+  color: #fff;
+  font-size: 34px;
+  line-height: 45px;
+}
+.in-between-section .just-btn {
+  display: block;
+  width: 260px;
+  height: 45px;
+  line-height: 45px;
+  background: #fff;
+  color: #000;
+  font-size: 25px;
+  font-family: 'PFAGORASANSPRO-LIGHT', sans-serif;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.in-between-section .just-btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #cb292c;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.red-heading {
+  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.red-heading h1 {
+  font-size: 35px;
+}
+.red-heading h1 img {
+  width: 40px;
+  margin-right: 5px;
+}
+.red-heading h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-family: "PFAGORASANSPRO-MEDIUM", sans-serif;
+  font-weight: 600;
+}
+.trade-point-description {
+  margin-bottom: 50px;
+}
+.trade-point-description p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-right: 50px;
+  max-width: 350px;
+}
+.features .feature {
+  display: block;
+  margin-bottom: 15px;
+}
+.features .feature img {
+  width: 30px;
+  margin-right: 5px;
+}
+.features .feature .feature-name {
+  font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+  font-size: 28px;
+}
+.features .feature .feature-value {
+  font-family: 'PFAgoraSlabPro-Black', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.features .feature .feature-value sup {
+  font-size: 18px;
+}
+.trade-point-img-column {
+  vertical-align: bottom;
+}
+.trade-point-img {
+  position: relative;
+}
+.trade-point-img:before {
+  content: "";
+  background: url(../img/png/arrow-where_sell.png) 0 0 no-repeat;
+  position: absolute;
+  top: -21px;
+  left: -59px;
+  width: 161px;
+  height: 100px;
+}
+.trade-point-img img {
+  width: 100%;
+}
+.pros-section {
+  margin-top: 50px;
+}
+.tomato {
+  position: absolute;
+  left: 20px;
+  bottom: 130px;
+}
+.tomato img {
+  width: 100px;
+}
+.pros {
+  margin: 0px auto 75px;
+  max-width: 900px;
+  font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+}
+.pros .pro {
+  position: relative;
+}
+.pros img {
+  position: absolute;
+  top: 2px;
+  left: -35px;
+  width: 30px;
+}
+.franchise-package-section {
+  background-color: #d4d4d4;
+}
+.you-get {
+  font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+  font-size: 35px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+.package-image {
+  width: 95%;
+  margin-left: -50px;
+}
+.block {
+  margin-bottom: 30px;
+}
+.block ul li {
+  line-height: 27px;
+}
+.block sup {
+  font-size: 14px;
+}
+.block p {
+  font-size: 25px;
+}
+.block .price {
+  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  font-size: 50px;
+  margin: 0 0 15px;
+}
+.block .price span {
+  font-size: 40px;
+}
+.profit {
+  max-width: 980px;
+  margin: 0 auto 90px;
+  text-align: center;
+  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  font-size: 45px;
+  line-height: 45px;
+  padding: 15px 10px;
+  color: #fff;
+  background-color: #cb292c;
+}
+.video {
+  margin: 0 auto 75px;
+  max-width: 980px;
+}
+.swiper2 {
+  display: none;
+}
+.swiper-container {
+  width: 100%;
+  height: 340px;
+}
+.swiper-slide {
+  /*text-align: center;
+    font-size: 18px;
+    background: #fff;*/
+  width: 453px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide img {
+  height: 340px;
+}
+.swiper-slide-size_02 {
+  width: 511px;
+}
+.swiper-slide-size_03 {
+  width: 480px;
+}
+.swiper-pagination-bullet-active {
+  background: #cb292c;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  height: 340px;
+  margin-top: -22px;
+  z-index: 10;
+  cursor: pointer;
+  background-size: 27px 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: none;
+}
+.form-header {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.form-header h1 {
+  font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+  font-size: 45px;
+  line-height: 45px;
+  padding-top: 30px;
+}
+.form-description {
+  padding: 0 10px;
+  font-size: 20px;
+  line-height: 25px;
+}
+.my-form {
+  margin-top: 25px;
+  font-family: 'PFAGORASANSPRO-LIGHT';
+}
+.form-control {
+  padding: 25px 28px;
+  font-family: 'PFAGORASANSPRO-LIGHT';
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  line-height: 1.2;
+  background-color: #d4d4d4;
+  border: none;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+}
+.submit-button {
+  margin: 5px 0 20px;
+  padding: 14px 28px;
+  background-color: #3a3a3a;
+  color: #fff;
+  width: 100%;
+  font-size: 25px;
+  border: none;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.submit-button:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #cb292c;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.input-replacer {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 20px;
+}
+.download-presentation {
+  margin-top: 30px;
+}
+.download-presentation a {
+  text-decoration: none;
+}
+.download-presentation a:hover {
+  text-decoration: none;
+}
+.other-franchises-section h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.franchise-img {
+  position: relative;
+}
+.franchise-img img {
+  width: 100%;
+}
+.leave-your-cotact-data {
+  background-color: #cb292c;
+}
+.leave-your-cotact-data .just-btn:hover {
+  background-color: #000000;
+}
+.my-footer {
+  background-color: #2b2b2b;
+  color: #fff;
+  font-family: 'PFAGORASANSPRO-LIGHT';
+}
+.my-footer .footer-info li {
+  line-height: 35px;
+}
+.my-footer .footer-info li a {
+  color: #fff;
+  cursor: pointer;
+}
+.social-media {
+  float: right;
+}
+.social-media-icons a {
+  display: inline-block;
+  color: #2b2b2b;
+  background-color: #fff;
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: relative;
+}
+.social-media-icons a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.social-media-icons a .facebook {
+  font-size: 29px;
+}
+.our-blog a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: underline;
+}
+.menu-button {
+  display: none;
+  font-size: 25px;
+  line-height: 43px;
+  color: #fff;
+}
+.menu-button:hover {
+  color: #fff;
+}
+.collapsed-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2b2b2b;
+  z-index: 999;
+}
+.menu-items {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.menu-items ul {
+  text-align: center;
+}
+.menu-items ul li {
+  line-height: 40px;
+}
+.menu-items a {
+  color: #fff !important;
+  font-size: 35px;
+  line-height: 1.25;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.menu-items a:hover {
+  color: #ccc !important;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.nav-elements,
+.top-elements {
+  margin-top: 10px;
+}
+.top-elements {
+  color: #fff;
+}
+.top-elements .close-button {
+  font-size: 30px;
+  line-height: 43px;
+  color: #ccc;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.top-elements .close-button:hover {
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}

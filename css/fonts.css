@@ -1,0 +1,25 @@
+
+@font-face { 
+    font-family: 'PFAgoraSlabPro-Black';
+    src: url(../fonts/PFAgoraSlabPro-Black.ttf);
+}
+
+@font-face { 
+    font-family: 'PFAgoraSlabPro-Bold';
+    src: url(../fonts/PFAgoraSlabPro-Bold.ttf);
+}
+
+@font-face { 
+    font-family: 'PFAGORASANSPRO-LIGHT';
+    src: url(../fonts/PFAGORASANSPRO-LIGHT.ttf);
+}
+
+@font-face { 
+    font-family: 'PFAGORASANSPRO-MEDIUM';
+    src: url(../fonts/PFAGORASANSPRO-MEDIUM.ttf);
+}
+
+@font-face { 
+    font-family: 'PFAGORASANSPRO-BLACK';
+    src: url(../fonts/PFAGORASANSPRO-BLACK.ttf);
+}

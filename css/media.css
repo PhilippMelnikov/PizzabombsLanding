@@ -1,0 +1,807 @@
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .md-obsolete {
+    display: none;
+  }
+  .product-description {
+    height: 100px;
+  }
+  .in-between-section {
+    padding: 30px 0;
+  }
+  .in-between-section p {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .in-between-section .just-btn {
+    margin: 0px auto;
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+  }
+  .pros {
+    margin: -20px auto 25px;
+    max-width: 597px;
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .pros img {
+    position: absolute;
+    top: -1px;
+    left: -29px;
+    width: 25px;
+  }
+  .tomato {
+    bottom: 75px;
+  }
+  .tomato img {
+    width: 80px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .nav-menu {
+    padding-right: 0px;
+  }
+  .nav-menu ul {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+  }
+  .nav-menu ul li {
+    float: left;
+    margin-right: 15px;
+  }
+  .my-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .heading h1 {
+    font-size: 60px;
+    line-height: 55px;
+  }
+  .heading .price {
+    font-size: 65px;
+    margin: 25px 0 30px;
+  }
+  .top-btn {
+    font-size: 25px;
+    width: 260px;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    margin: 0px auto 10px auto;
+    color: #000;
+  }
+  .red-heading h1 {
+    font-size: 28px;
+  }
+  .red-heading h1 span {
+    margin-left: -10px;
+  }
+  .red-heading h1 img {
+    width: 28px;
+    margin-right: 5px;
+  }
+  .red-heading h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .products h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .products h2 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 50px;
+  }
+  .products h2::before {
+    background: url(../img/png/arrow-they_sell.png);
+    background-size: 100% auto;
+    right: -13px;
+    top: 15px;
+    width: 30px;
+    height: 64px;
+  }
+  .review {
+    margin-right: -25px;
+  }
+  .last-review {
+    margin-bottom: 0;
+  }
+  .review-text {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    padding-right: 30px;
+    padding: 0 10px;
+    max-width: 320px;
+    word-wrap: break-word;
+  }
+  .avatar-section {
+    padding-left: 10px;
+    margin-right: 0;
+  }
+  .star-number {
+    margin-left: 10px;
+  }
+  .in-between-section {
+    padding: 20px 0;
+  }
+  .in-between-section p {
+    font-size: 20px;
+    line-height: 31px;
+  }
+  .in-between-section .just-btn {
+    width: 155px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+  }
+  .trade-point-description {
+    margin-bottom: 30px;
+  }
+  .trade-point-description p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-right: 0px;
+  }
+  .trade-point-img::before {
+    display: none;
+  }
+  .tomato {
+    left: 20px;
+    bottom: 50px;
+  }
+  .tomato img {
+    width: 80px;
+  }
+  .features .feature {
+    margin-bottom: 10px;
+  }
+  .features .feature .feature-name {
+    font-size: 22px;
+  }
+  .features .feature .feature-value {
+    font-size: 16px;
+  }
+  .features .feature .feature-value sup {
+    font-size: 13px;
+  }
+  .pros-section {
+    margin-top: 15px;
+  }
+  .pros {
+    margin: -20px auto 25px;
+    max-width: 490px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .pros img {
+    position: absolute;
+    top: 0px;
+    left: -24px;
+    width: 22px;
+  }
+  .you-get {
+    font-size: 28px;
+    margin-left: 0px;
+  }
+  .block .price {
+    font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+    font-size: 40px;
+    margin: 0px 0px 10px;
+  }
+  .block p {
+    font-size: 20px;
+  }
+  .block ul li {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .profit {
+    font-size: 28px;
+    line-height: 28px;
+    margin: 15px auto 40px;
+  }
+  .video {
+    margin-bottom: 25px;
+  }
+  .swiper-container {
+    height: 220px;
+  }
+  .contact-us-section .red-heading {
+    margin-bottom: 20px;
+  }
+  .form-header {
+    height: 140px;
+  }
+  .form-header img {
+    width: 105px;
+  }
+  .form-header h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .form-description {
+    font-size: 18px;
+  }
+  .input-replacer {
+    height: 33px;
+  }
+  .download-presentation a img {
+    height: 80px;
+  }
+  .form-control {
+    font-size: 18px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+  .submit-button {
+    font-size: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .other-franchises-section h1 {
+    font-size: 30px;
+  }
+  .my-footer .footer-info {
+    font-size: 16px;
+  }
+  .my-footer .footer-info li {
+    line-height: 22px;
+  }
+  .social-media {
+    display: block;
+    float: left;
+  }
+  .social-media-icons {
+    display: block;
+  }
+  .social-media-icons a {
+    margin-right: 10px;
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    position: relative;
+  }
+  .social-media-icons a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .social-media-icons a .facebook {
+    font-size: 18px;
+  }
+  .our-blog a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .desktop-menu {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+  .my-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .f-logo {
+    width: 180px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  .xs-obsolete {
+    display: none;
+  }
+  .section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .heading {
+    margin-left: 40px;
+  }
+  .heading.pull-right {
+    float: left !important;
+  }
+  .heading h1 {
+    font-size: 60px;
+    line-height: 50px;
+  }
+  .heading .price {
+    font-size: 60px;
+    margin: 25px 0 30px;
+  }
+  .heading .price::before {
+    display: none;
+  }
+  .top-btn {
+    font-size: 22px;
+    width: 210px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    margin: 10px auto 10px auto;
+    color: #000;
+  }
+  .products .image {
+    max-width: 420px;
+    margin: -30px auto 20px;
+  }
+  .products h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .products h2 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+  .products h2::before {
+    display: none;
+  }
+  .review {
+    margin-bottom: 50px;
+    margin-right: 0px;
+  }
+  .last-review {
+    margin-bottom: 30px;
+  }
+  .review-text {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    max-width: none !important;
+    padding: 0 10px;
+  }
+  .avatar-section {
+    padding-left: 10px;
+    margin-right: 0;
+  }
+  .star-number {
+    margin-left: 10px;
+  }
+  .in-between-section {
+    padding: 20px 0;
+  }
+  .in-between-section p {
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .in-between-section .just-btn {
+    margin: 10px auto 0;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+  .trade-point {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .trade-point-img img {
+    width: 90%;
+  }
+  .trade-point-description {
+    margin-bottom: 30px;
+  }
+  .trade-point-description p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-right: 0px;
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .features {
+    max-width: 580px;
+    margin: 10px auto;
+  }
+  .features .feature {
+    margin-bottom: 10px;
+  }
+  .features .feature .feature-name {
+    font-size: 26px;
+  }
+  .features .feature .feature-value {
+    font-size: 18px;
+  }
+  .features .feature .feature-value sup {
+    font-size: 13px;
+  }
+  .pros-section {
+    margin-top: 15px;
+  }
+  .pros {
+    margin: -15px auto 25px;
+    max-width: 580px;
+    font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .pros img {
+    position: absolute;
+    top: -3px;
+    left: -27px;
+    width: 23px;
+  }
+  .you-get {
+    font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: -15px;
+    margin-bottom: 25px;
+  }
+  .franch-box-image {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .block .price {
+    font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+    font-size: 45px;
+    margin: 15px 0px 10px;
+    text-align: center;
+  }
+  .block p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .profit {
+    font-size: 26px;
+    line-height: 26px;
+    margin: 20px auto 40px;
+  }
+  .video {
+    margin-bottom: 30px;
+  }
+  .swiper-container {
+    height: 220px;
+  }
+  .form-header img {
+    width: 100px;
+  }
+  .form-header h1 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .form-description {
+    font-size: 18px;
+  }
+  .input-replacer {
+    display: none;
+  }
+  .download-presentation {
+    padding: 0 10px;
+    margin-bottom: 25px;
+  }
+  .download-presentation img {
+    height: 80px;
+  }
+  .download-presentation a img {
+    height: 80px;
+  }
+  .open-business {
+    margin-bottom: 15px;
+  }
+  .other-franchises-section h1 {
+    font-size: 25px;
+  }
+  .other-francises-gallery {
+    display: none;
+  }
+  .swiper2 {
+    display: block;
+    height: 280px;
+  }
+  .my-footer .footer-info {
+    font-size: 15px;
+  }
+  .my-footer .footer-info li {
+    line-height: 22px;
+  }
+  .social-media {
+    display: block;
+    float: left;
+    margin-top: 5px;
+  }
+  .social-media-icons {
+    display: block;
+  }
+  .social-media-icons a {
+    margin-right: 10px;
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    position: relative;
+  }
+  .social-media-icons a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .social-media-icons a .facebook {
+    font-size: 18px;
+  }
+  .our-blog a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .xs-obsolete {
+    display: none;
+  }
+  .section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .f-logo {
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .heading h1 {
+    font-size: 50px;
+    line-height: 45px;
+  }
+  .heading .price {
+    font-size: 75px;
+    margin: 25px 0 30px;
+  }
+  .top-btn {
+    font-size: 20px;
+    width: 210px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    margin: 0px auto 10px auto;
+    color: #000;
+  }
+  .red-heading h1 {
+    font-size: 25px;
+    max-width: 600px;
+  }
+  .red-heading h1 span {
+    margin-left: -10px;
+  }
+  .red-heading h1 img {
+    width: 25px;
+    margin-right: 5px;
+  }
+  .red-heading h2 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-family: "PFAGORASANSPRO-MEDIUM", sans-serif;
+    font-weight: 600;
+  }
+  .products h1 {
+    font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+    font-size: 25px;
+    text-align: center;
+  }
+  .products h2 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 19px;
+    margin-top: 10px;
+  }
+  .review {
+    margin-bottom: 50px;
+    margin-right: 0px;
+  }
+  .last-review {
+    margin-bottom: 0;
+  }
+  .review-text {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    padding-right: 30px;
+    padding: 0 10px;
+    max-width: 320px;
+    word-wrap: break-word;
+  }
+  .avatar-section {
+    padding-left: 10px;
+    margin-right: 0;
+  }
+  .star-number {
+    margin-left: 10px;
+  }
+  .in-between-section {
+    padding: 20px 0;
+  }
+  .in-between-section p {
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .in-between-section .just-btn {
+    margin: 10px auto 0;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+  .trade-point-description {
+    margin-bottom: 30px;
+  }
+  .trade-point-description p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-right: 0px;
+    max-width: 480px;
+  }
+  .features {
+    max-width: 280px;
+    margin: 10px auto;
+  }
+  .features .feature {
+    margin-bottom: 10px;
+  }
+  .features .feature .feature-name {
+    font-size: 22px;
+  }
+  .features .feature .feature-value {
+    font-size: 16px;
+  }
+  .features .feature .feature-value sup {
+    font-size: 13px;
+  }
+  .pros-section {
+    margin-top: 15px;
+  }
+  .pros {
+    margin: -10px auto 25px;
+    max-width: 280px;
+    font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .pros img {
+    position: absolute;
+    top: 4px;
+    left: -20px;
+    width: 18px;
+  }
+  .you-get {
+    font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: -15px;
+    margin-bottom: 25px;
+  }
+  .block .price {
+    font-family: 'PFAGORASANSPRO-BLACK', sans-serif;
+    font-size: 45px;
+    margin: 15px 0px 10px;
+    text-align: center;
+  }
+  .block p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .profit {
+    font-size: 26px;
+    line-height: 26px;
+    margin: 20px auto 40px;
+  }
+  .video {
+    margin-bottom: 30px;
+  }
+  .swiper-container {
+    height: 220px;
+  }
+  .form-header img {
+    width: 100px;
+  }
+  .form-header h1 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .form-description {
+    font-size: 18px;
+  }
+  .input-replacer {
+    display: none;
+  }
+  .download-presentation {
+    padding: 0 10px;
+  }
+  .download-presentation img {
+    height: 80px;
+  }
+  .download-presentation a img {
+    height: 80px;
+  }
+  .open-business {
+    margin-bottom: 15px;
+  }
+  .other-franchises-section h1 {
+    font-size: 25px;
+  }
+  .my-footer .footer-info {
+    font-size: 12px;
+  }
+  .my-footer .footer-info li {
+    line-height: 20px;
+  }
+  .social-media {
+    display: block;
+    float: left;
+    margin-top: 15px;
+  }
+  .social-media-icons {
+    display: block;
+  }
+  .social-media-icons a {
+    margin-right: 10px;
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    position: relative;
+  }
+  .social-media-icons a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .social-media-icons a .facebook {
+    font-size: 18px;
+  }
+  .our-blog a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
