@@ -1,6 +1,6 @@
 body {
   font-family: "PFAGORASANSPRO-MEDIUM", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   color: #000000;
   background: #fff;
 }
@@ -10,9 +10,11 @@ body {
 }
 .top-header {
   background-color: #2b2b2b;
+  max-width: 100%;
 }
 .head {
   padding: 10px 0px;
+  font-size: 21px;
 }
 .logo {
   float: left;
@@ -35,8 +37,11 @@ body {
   float: left;
   margin-right: 50px;
 }
+.nav-menu ul li:last-of-type {
+  margin-right: 20px;
+}
 .nav-menu ul li a {
-  font-size: 13px;
+  font-family: 'PFAGORASANSPRO-LIGHT', sans-serif;
   line-height: 40px;
   height: 40px;
   padding: 10px 5px;
@@ -54,7 +59,6 @@ body {
 .language-selector-container {
   float: right;
   color: #fff;
-  font-size: 13px;
   line-height: 40px;
 }
 .phone-number a,
@@ -62,7 +66,8 @@ body {
   color: #fff;
 }
 .language-selector-container {
-  margin-left: 10px;
+  margin-left: 40px;
+  font-family: 'PFAGORASANSPRO-LIGHT', sans-serif;
 }
 .language-selector {
   position: relative;
@@ -72,12 +77,18 @@ body {
 }
 .language-selector .divider {
   position: absolute;
-  top: 15px;
-  bottom: 15px;
+  top: 12px;
+  bottom: 12px;
   content: "";
   width: 0px;
   left: 50%;
   border-right: 1px solid #fff;
+}
+.mobile-menu {
+  display: none;
+}
+.mobile-menu .language-selector {
+  margin-right: 20px;
 }
 .section {
   padding-top: 50px;
@@ -97,18 +108,18 @@ body {
   display: block;
   font-weight: 900;
   font-family: 'PFAGORASANSPRO-BLACK', 'PFAGORASANSPRO-BOLD', sans-serif;
-  font-size: 65px;
-  line-height: 60px;
+  font-size: 100px;
+  line-height: 90px;
   max-width: 415px;
   margin-bottom: 30px;
 }
 .heading p {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 10px;
 }
 .heading .price {
-  font-family: 'PFAGORASANSPRO-BLACK', 'PFAGORASANSPRO-BOLD', sans-serif;
-  font-size: 86px;
+  font-family: 'PFAgoraSlabPro-Black', sans-serif;
+  font-size: 135px;
   margin: 40px 0 45px;
   position: relative;
 }
@@ -132,7 +143,7 @@ body {
   background: #fff;
   margin: 40px auto 10px auto;
   color: #000;
-  font-size: 25px;
+  font-size: 35px;
   font-family: 'PFAGORASANSPRO-LIGHT', sans-serif;
   text-align: center;
   -webkit-transition: all 0.2s ease-in;
@@ -144,6 +155,25 @@ body {
   background-color: #cb292c;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+}
+.red-heading {
+  font-family: 'PFAGORASANSPRO-BLACK', 'PFAGORASANSPRO-BOLD', sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.red-heading h1 {
+  font-size: 50px;
+}
+.red-heading h1 img {
+  width: 40px;
+  margin-right: 5px;
+}
+.red-heading h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-family: "PFAGORASANSPRO-BOLD", sans-serif;
+  font-weight: 600;
 }
 .leaf2 {
   position: absolute;
@@ -186,14 +216,13 @@ body {
   position: relative;
 }
 .products h1 {
-  font-family: "PFAGORASANSPRO-BLACK", 'PFAGORASANSPRO-BOLD', sans-serif;
-  font-size: 30px;
+  font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+  font-size: 36px;
 }
 .products h2 {
   position: relative;
   font-family: "PFAGORASANSPRO-MEDIUM", sans-serif;
-  font-size: 20px;
-  letter-spacing: 1px;
+  font-size: 25px;
   line-height: 26px;
   margin-top: 10px;
 }
@@ -212,7 +241,7 @@ body {
   margin-top: 40px;
 }
 .strong {
-  font-family: "PFAGORASANSPRO-BLACK", 'PFAGORASANSPRO-BOLD', sans-serif;
+  font-family: 'PFAGORASANSPRO-MEDIUM', sans-serif;
   font-weight: 900;
 }
 .reviews {
@@ -275,19 +304,25 @@ body {
   font-size: 12px;
 }
 .review-text {
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  line-height: 20px;
-  padding-right: 30px;
+  font-size: 25px;
 }
 .in-between-section {
   background-color: #2b2b2b;
-  padding: 75px 0;
+  height: 225px;
+  position: relative;
+}
+.in-between-section .text {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 .in-between-section p {
   color: #fff;
-  font-size: 34px;
+  font-size: 50px;
   line-height: 45px;
 }
 .in-between-section .just-btn {
@@ -310,33 +345,16 @@ body {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-.red-heading {
-  font-family: 'PFAGORASANSPRO-BLACK', 'PFAGORASANSPRO-BOLD', sans-serif;
-  text-align: center;
-  margin-bottom: 50px;
-}
-.red-heading h1 {
-  font-size: 35px;
-}
-.red-heading h1 img {
-  width: 40px;
-  margin-right: 5px;
-}
-.red-heading h2 {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  font-size: 20px;
-  font-family: "PFAGORASANSPRO-MEDIUM", sans-serif;
-  font-weight: 600;
+.call-us .text p {
+  margin-top: 30px;
 }
 .trade-point-description {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .trade-point-description p {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 30px;
-  padding-right: 50px;
-  max-width: 350px;
+  max-width: 400px;
 }
 .features .feature {
   display: block;
@@ -348,18 +366,17 @@ body {
 }
 .features .feature .feature-name {
   font-family: "PFAGORASANSPRO-BLACK", 'PFAGORASANSPRO-BOLD', sans-serif;
-  font-size: 28px;
+  font-size: 36px;
 }
 .features .feature .feature-value {
-  font-family: 'PFAgoraSlabPro-Black', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
+  font-family: 'PFAgoraSlabPro-Bold', sans-serif;
+  font-size: 23px;
 }
 .features .feature .feature-value sup {
   font-size: 18px;
 }
 .trade-point-img-column {
-  vertical-align: bottom;
+  padding-top: 95px;
 }
 .trade-point-img {
   position: relative;
@@ -368,13 +385,11 @@ body {
   content: "";
   background: url(../img/png/arrow-where_sell.png) 0 0 no-repeat;
   position: absolute;
-  top: -21px;
-  left: -59px;
-  width: 161px;
-  height: 100px;
-}
-.trade-point-img img {
-  width: 100%;
+  top: -25px;
+  left: -95px;
+  width: 458px;
+  height: 837px;
+  z-index: 90;
 }
 .pros-section {
   margin-top: 50px;
@@ -389,26 +404,27 @@ body {
 }
 .pros {
   margin: 0px auto 75px;
-  max-width: 736px;
+  max-width: 920px;
   font-family: "PFAGORASANSPRO-BLACK", 'PFAGORASANSPRO-BOLD', sans-serif;
-  font-size: 30px;
+  font-size: 36px;
   line-height: 50px;
+  padding-left: 35px;
 }
 .pros .pro {
   position: relative;
 }
 .pros img {
   position: absolute;
-  top: 2px;
-  left: -35px;
-  width: 30px;
+  top: -1px;
+  left: -40px;
+  width: 35px;
 }
 .franchise-package-section {
   background-color: #d4d4d4;
 }
 .you-get {
-  font-family: "PFAGORASANSPRO-BLACK", 'PFAGORASANSPRO-BOLD', sans-serif;
-  font-size: 35px;
+  font-family: "PFAGORASANSPRO-BLACK", sans-serif;
+  font-size: 36px;
   margin-left: 30px;
   margin-bottom: 50px;
 }
@@ -430,7 +446,7 @@ body {
 }
 .block .price {
   font-family: 'PFAGORASANSPRO-BLACK', 'PFAGORASANSPRO-BOLD', sans-serif;
-  font-size: 50px;
+  font-size: 60px;
   margin: 0 0 15px;
 }
 .block .price span {
@@ -453,6 +469,11 @@ body {
 }
 .swiper2 {
   display: none;
+  height: 280px !important;
+  width: 100%;
+}
+.swiper2 .swiper-slide img {
+  height: 100%;
 }
 .swiper-container {
   width: 100%;
@@ -485,6 +506,42 @@ body {
 }
 .swiper-slide-size_03 {
   width: 480px;
+}
+.swiper-slide-size_04 {
+  width: 450px ;
+}
+.swiper-slide-size_05 {
+  width: 395px ;
+}
+.swiper-slide-size_06 {
+  width: 405px ;
+}
+.swiper-slide-size_07 {
+  width: 346px ;
+}
+.swiper3 {
+  min-height: 442px;
+}
+.swiper3 .swiper-slide {
+  position: relative;
+}
+.swiper3 .swiper-slide img {
+  height: 110%;
+  width: 118%;
+}
+.swiper3 .swiper-slide .arrow {
+  position: absolute;
+  top: -18px;
+  left: -18px;
+  width: 140px;
+  height: 86px;
+  z-index: 1000;
+}
+.swiper4 {
+  height: 200px;
+}
+.swiper4 .swiper-slide {
+  width: 505px !important;
 }
 .swiper-pagination-bullet-active {
   background: #cb292c;
@@ -522,14 +579,24 @@ body {
 }
 .form-header h1 {
   font-family: 'PFAGORASANSPRO-BLACK', 'PFAGORASANSPRO-BOLD', sans-serif;
-  font-size: 45px;
-  line-height: 45px;
+  font-size: 50px;
+  line-height: 50px;
   padding-top: 30px;
 }
 .form-description {
-  padding: 0 10px;
-  font-size: 20px;
+  padding: 0 0px;
   line-height: 25px;
+  position: relative;
+}
+.form-description:before {
+  content: "";
+  background: url(../img/png/arrow-they_sell.png) 0 0 no-repeat;
+  position: absolute;
+  top: 64%;
+  right: -10%;
+  width: 45px;
+  height: 90px;
+  z-index: 90;
 }
 .my-form {
   margin-top: 25px;
@@ -582,8 +649,10 @@ body {
 }
 .other-franchises-section h1 {
   text-align: center;
-  font-size: 35px;
-  margin-bottom: 50px;
+  font-size: 50px;
+  margin-left: -30px;
+  margin-right: -30px;
+  margin-bottom: 55px;
 }
 .franchise-img {
   position: relative;

@@ -1,6 +1,51 @@
 /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+  .head {
+    font-size: 16px;
+  }
+  .nav-menu {
+    padding-right: 0px;
+  }
+  .nav-menu ul {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+  }
+  .nav-menu ul li {
+    float: left;
+    margin-right: 25px;
+  }
+  .heading h1 {
+    font-size: 76px;
+    line-height: 70px;
+  }
+  .heading .price {
+    font-size: 102px;
+    margin: 25px 0 30px;
+  }
+  .heading p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .top-btn {
+    font-size: 25px;
+  }
+  .red-heading h1 {
+    font-size: 35px;
+  }
+  .red-heading h2 {
+    font-size: 20px;
+  }
+  .review-text {
+    font-size: 18px;
+  }
+  .call-us .text p {
+    margin-left: 20px;
+  }
   .md-obsolete {
     display: none;
   }
@@ -9,6 +54,7 @@
   }
   .in-between-section {
     padding: 30px 0;
+    max-height: 150px;
   }
   .in-between-section p {
     font-size: 28px;
@@ -16,16 +62,38 @@
   }
   .in-between-section .just-btn {
     margin: 0px auto;
-    width: 240px;
+    width: 220px;
     height: 40px;
     line-height: 40px;
     font-size: 22px;
   }
+  .trade-point-description {
+    margin-bottom: 80px;
+  }
+  .trade-point-description p {
+    font-size: 20px;
+  }
+  .trade-point-img img {
+    width: 100%;
+  }
+  .features .feature {
+    margin-bottom: 15px;
+  }
+  .features .feature .feature-name {
+    font-size: 28px;
+  }
+  .features .feature .feature-value {
+    font-size: 20px;
+  }
+  .features .feature .feature-value sup {
+    font-size: 18px;
+  }
   .pros {
     margin: -20px auto 25px;
-    max-width: 597px;
+    max-width: 610px;
     font-size: 24px;
     line-height: 35px;
+    padding-left: 25px;
   }
   .pros img {
     position: absolute;
@@ -39,20 +107,73 @@
   .tomato img {
     width: 80px;
   }
+  .profit {
+    font-size: 35px;
+  }
+  .price {
+    font-size: 50px;
+  }
+  .block p {
+    font-size: 20px;
+  }
+  .block ul li {
+    line-height: 25px;
+  }
+  .form-header {
+    margin-top: -35px;
+  }
+  .form-header h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .form-description {
+    font-size: 18px;
+    padding-right: 10px;
+  }
+  .form-description::before {
+    top: 64%;
+    right: -10%;
+  }
+  .trade-point-img-column {
+    padding-top: 30px;
+  }
+  .trade-point-img-column img {
+    width: 100%;
+  }
+  .swiper4 {
+    height: 180px;
+  }
+  .swiper4 .swiper-slide {
+    width: 470px !important;
+  }
+  .swiper4 .swiper-slide .features {
+    width: 504px;
+  }
+  .swiper-slide-size_08 {
+    width: 260px;
+  }
+  .my-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .other-franchises-section h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 55px;
+  }
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  .nav-menu {
-    padding-right: 0px;
+  .desktop-menu {
+    display: none;
   }
-  .nav-menu ul {
-    display: inline-block;
-    *display: inline;
-    *zoom: 1;
+  .mobile-menu {
+    display: block;
   }
-  .nav-menu ul li {
-    float: left;
-    margin-right: 15px;
+  .menu-button {
+    display: block;
   }
   .my-container {
     padding-left: 0px;
@@ -139,9 +260,10 @@
   }
   .in-between-section {
     padding: 20px 0;
+    height: 120px;
   }
   .in-between-section p {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 31px;
   }
   .in-between-section .just-btn {
@@ -185,9 +307,10 @@
   }
   .pros {
     margin: -20px auto 25px;
-    max-width: 490px;
+    max-width: 510px;
     font-size: 20px;
     line-height: 35px;
+    padding-left: 22px;
   }
   .pros img {
     position: absolute;
@@ -227,6 +350,7 @@
   }
   .form-header {
     height: 140px;
+    margin-top: -15px;
   }
   .form-header img {
     width: 105px;
@@ -237,6 +361,9 @@
   }
   .form-description {
     font-size: 18px;
+  }
+  .form-description::before {
+    display: none;
   }
   .input-replacer {
     height: 33px;
@@ -256,6 +383,8 @@
   }
   .other-franchises-section h1 {
     font-size: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .my-footer .footer-info {
     font-size: 16px;
@@ -295,6 +424,18 @@
     font-weight: 500;
     color: #fff;
     text-decoration: underline;
+  }
+  .trade-point-img-column {
+    padding-top: 0px;
+  }
+  .swiper4 {
+    height: 180px;
+  }
+  .swiper4 .swiper-slide {
+    width: 295px !important;
+  }
+  .swiper4 .swiper-slide .features {
+    width: 290px;
   }
 }
 /* Small Devices, Tablets */
@@ -388,6 +529,17 @@
   }
   .in-between-section {
     padding: 20px 0;
+    height: 150px;
+  }
+  .in-between-section .text {
+    position: relative;
+    top: 0;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .in-between-section .container {
+    width: 100%;
   }
   .in-between-section p {
     text-align: center;
@@ -400,6 +552,13 @@
     height: 40px;
     line-height: 40px;
     font-size: 18px;
+  }
+  .call-us .text {
+    margin-top: 5px;
+  }
+  .call-us .text p {
+    margin-top: 0px;
+    margin-left: 0;
   }
   .trade-point {
     padding-right: 15px;
@@ -493,6 +652,9 @@
   .form-description {
     font-size: 18px;
   }
+  .form-description::before {
+    display: none;
+  }
   .input-replacer {
     display: none;
   }
@@ -514,10 +676,6 @@
   }
   .other-francises-gallery {
     display: none;
-  }
-  .swiper2 {
-    display: block;
-    height: 280px;
   }
   .my-footer .footer-info {
     font-size: 15px;
@@ -559,9 +717,32 @@
     color: #fff;
     text-decoration: underline;
   }
+  .swiper2 {
+    width: 100%;
+    display: block;
+  }
+  .swiper3 .swiper-slide img {
+    height: 95%;
+    width: 95%;
+  }
+  .trade-point-img {
+    margin-top: -50px;
+  }
+  .swiper4 .swiper-slide {
+    width: 100% !important;
+  }
+  .swiper4 .swiper-slide .features {
+    width: 100%;
+  }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  .mobile-menu .language-selector {
+    display: none;
+  }
+  .mobile-menu .phone-number {
+    display: none;
+  }
   .xs-obsolete {
     display: none;
   }
@@ -668,6 +849,9 @@
     line-height: 40px;
     font-size: 18px;
   }
+  .trade-point-img {
+    margin-top: -70px;
+  }
   .trade-point-description {
     margin-bottom: 30px;
   }
@@ -679,8 +863,7 @@
     max-width: 480px;
   }
   .features {
-    max-width: 280px;
-    margin: 10px auto;
+    max-width: 100%;
   }
   .features .feature {
     margin-bottom: 10px;
@@ -699,7 +882,7 @@
   }
   .pros {
     margin: -10px auto 25px;
-    max-width: 280px;
+    max-width: 340px;
     font-family: "PFAGORASANSPRO-BLACK", sans-serif;
     font-size: 18px;
     line-height: 35px;

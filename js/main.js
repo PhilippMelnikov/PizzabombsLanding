@@ -55,13 +55,43 @@ $(window).resize(function() {
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         paginationClickable: true,
+        spaceBetween: 100,
+        autoplay: 2500,
+        setWrapperSize: true,
+        autoplayDisableOnInteraction: false,
+        slidesPerView: 1,
+        centeredSlides: false,
+        loop: true
+    });
+
+    var swiper3 = new Swiper('.swiper3', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: false,
         spaceBetween: 0,
         autoplay: 2500,
         autoplayDisableOnInteraction: false,
         slidesPerView: 1,
         centeredSlides: true,
+        effect: 'slide',
         loop: true
     });
+
+    var swiper4 = new Swiper('.swiper4', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: false,
+        spaceBetween: 0,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false,
+        slidesPerView: 1,
+        centeredSlides: true,
+        effect: 'slide',
+        loop: true
+    });
+
 
 //fancybox
   $(".fancybox").fancybox({

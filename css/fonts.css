@@ -1,12 +1,23 @@
 
-@font-face { 
-    font-family: 'PFAgoraSlabPro-Black';
-    src: url(../fonts/PFAgoraSlabPro-Black.ttf);
+
+@font-face {
+    font-family: "PFAgoraSlabPro-Black";
+    src: url("../fonts/PFAgoraSlabPro-Black/fonts/PFAgoraSlabPro-Black.eot");
+    src: url("../fonts/PFAgoraSlabPro-Black/fonts/PFAgoraSlabPro-Black.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PFAgoraSlabPro-Black/fonts/PFAgoraSlabPro-Black.woff") format("woff"),
+    url("../fonts/PFAgoraSlabPro-Black/fonts/PFAgoraSlabPro-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
-@font-face { 
-    font-family: 'PFAgoraSlabPro-Bold';
-    src: url(../fonts/PFAgoraSlabPro-Bold.ttf);
+@font-face {
+    font-family: "PFAgoraSlabPro-Bold";
+    src: url("../fonts/PFAgoraSlabPro-Bold/fonts/PFAgoraSlabPro-Bold.eot");
+    src: url("../fonts/PFAgoraSlabPro-Bold/fonts/PFAgoraSlabPro-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PFAgoraSlabPro-Bold/fonts/PFAgoraSlabPro-Bold.woff") format("woff"),
+    url("../fonts/PFAgoraSlabPro-Bold/fonts/PFAgoraSlabPro-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
 
@@ -42,8 +53,14 @@
 }
 
 
-
-@font-face { 
-    font-family: 'PFAGORASANSPRO-BLACK';
-    src: url(../fonts/PFAGORASANSPRO-BLACK.ttf);
+@font-face {
+    font-family: "PFAGORASANSPRO-BLACK";
+    src: url("../fonts/PFAGORASANSPRO-BLACK/fonts/PFAGORASANSPRO-BLACK.eot");
+    src: url("../fonts/PFAGORASANSPRO-BLACK/fonts/PFAGORASANSPRO-BLACK.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PFAGORASANSPRO-BLACK/fonts/PFAGORASANSPRO-BLACK.woff") format("woff"),
+    url("../fonts/PFAGORASANSPRO-BLACK/fonts/PFAGORASANSPRO-BLACK.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
+
+
