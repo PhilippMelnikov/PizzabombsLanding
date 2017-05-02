@@ -330,6 +330,7 @@ body {
   width: 260px;
   height: 45px;
   line-height: 45px;
+  margin-top: 5px;
   background: #fff;
   color: #000;
   font-size: 25px;
@@ -344,6 +345,9 @@ body {
   background-color: #cb292c;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+}
+.call-us .just-btn {
+  margin-top: 0;
 }
 .call-us .text p {
   margin-top: 30px;

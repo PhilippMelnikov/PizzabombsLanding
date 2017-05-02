@@ -533,10 +533,10 @@
   }
   .in-between-section .text {
     position: relative;
-    top: 0;
-    -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-            transform: translateY(0);
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
   .in-between-section .container {
     width: 100%;
@@ -559,6 +559,9 @@
   .call-us .text p {
     margin-top: 0px;
     margin-left: 0;
+  }
+  .call-us .just-btn {
+    margin-top: 0px;
   }
   .trade-point {
     padding-right: 15px;
@@ -848,6 +851,13 @@
     height: 40px;
     line-height: 40px;
     font-size: 18px;
+  }
+  .call-us .text p {
+    margin-top: 0px;
+    margin-left: 0;
+  }
+  .call-us .just-btn {
+    margin-top: 0px;
   }
   .trade-point-img {
     margin-top: -70px;
