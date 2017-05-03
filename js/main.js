@@ -60,8 +60,8 @@ $(window).resize(function() {
         autoplay: 2500,
         setWrapperSize: true,
         autoplayDisableOnInteraction: false,
-        slidesPerView: 1,
-        centeredSlides: false,
+        slidesPerView: '1',
+        centeredSlides: true,
         loop: true
     });
 
@@ -104,7 +104,7 @@ $(window).resize(function() {
    $('.anchor').click(function () {
   		var hrefName = $(this).attr('href');
 		$('html, body').animate({
-	        scrollTop: $(hrefName).offset().top - 20
+	        scrollTop: $(hrefName).offset().top - 40
 	    }, 600);
 	});
 
