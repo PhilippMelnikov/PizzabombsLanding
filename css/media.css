@@ -31,6 +31,11 @@
     font-size: 20px;
     margin-bottom: 10px;
   }
+  .eng-from {
+    font-size: 50px;
+    bottom: 10px;
+    left: -110px;
+  }
   .top-btn {
     font-size: 25px;
   }
@@ -39,6 +44,9 @@
   }
   .red-heading h2 {
     font-size: 20px;
+  }
+  .pizzabites h2 br {
+    display: none;
   }
   .review-text {
     font-size: 18px;
@@ -134,11 +142,17 @@
     top: 64%;
     right: -10%;
   }
+  .contact-us-section-eng .form-description {
+    min-height: 125px;
+  }
   .trade-point-img-column {
     padding-top: 30px;
   }
   .trade-point-img-column img {
     width: 100%;
+  }
+  .swiper3 .swiper-slide img {
+    width: 109%;
   }
   .swiper4 {
     height: 180px;
@@ -190,6 +204,11 @@
   .heading .price {
     font-size: 65px;
     margin: 25px 0 30px;
+  }
+  .eng-from {
+    font-size: 40px;
+    bottom: 5px;
+    left: -90px;
   }
   .top-btn {
     font-size: 25px;
@@ -273,7 +292,7 @@
     font-size: 16px;
   }
   .trade-point-description {
-    margin-bottom: 30px;
+    margin-bottom: 70px;
   }
   .trade-point-description p {
     font-size: 18px;
@@ -364,6 +383,12 @@
   }
   .form-description::before {
     display: none;
+  }
+  .contact-us-section-eng .business-desc {
+    margin-top: 0px;
+  }
+  .contact-us-section-eng .form-description {
+    min-height: 30px;
   }
   .input-replacer {
     height: 33px;
@@ -477,6 +502,9 @@
     margin: 25px 0 30px;
   }
   .heading .price::before {
+    display: none;
+  }
+  .eng-from {
     display: none;
   }
   .top-btn {
@@ -597,6 +625,9 @@
   .features .feature .feature-value sup {
     font-size: 13px;
   }
+  .trade-point-desc-eng h2 {
+    text-align: center;
+  }
   .pros-section {
     margin-top: 15px;
   }
@@ -654,9 +685,13 @@
   }
   .form-description {
     font-size: 18px;
+    min-height: 125px !important;
   }
   .form-description::before {
     display: none;
+  }
+  .contact-us-section-eng .form-description {
+    min-height: 45px !important;
   }
   .input-replacer {
     display: none;
@@ -672,12 +707,15 @@
     height: 80px;
   }
   .open-business {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
+  }
+  .open-business-eng {
+    margin-bottom: 0px;
   }
   .other-franchises-section h1 {
     font-size: 25px;
   }
-  .other-francises-gallery {
+  .other-franchises-gallery {
     display: none;
   }
   .my-footer .footer-info {
@@ -735,7 +773,8 @@
     width: 100% !important;
   }
   .swiper4 .swiper-slide .features {
-    width: 100%;
+    min-width: 279px;
+    max-width: 289px;
   }
 }
 /* Extra Small Devices, Phones */
@@ -872,6 +911,9 @@
     padding-right: 0px;
     max-width: 480px;
   }
+  .trade-point-desc-eng h2 {
+    text-align: center;
+  }
   .features {
     max-width: 100%;
   }
@@ -886,6 +928,13 @@
   }
   .features .feature .feature-value sup {
     font-size: 13px;
+  }
+  .swiper4 .swiper-slide {
+    width: 100% !important;
+  }
+  .swiper4 .swiper-slide .features {
+    min-width: 173px;
+    max-width: 250px;
   }
   .pros-section {
     margin-top: 15px;
@@ -935,7 +984,7 @@
     width: 100px;
   }
   .form-header h1 {
-    font-size: 35px;
+    font-size: 25px;
     line-height: 35px;
   }
   .form-description {
@@ -954,13 +1003,22 @@
     height: 80px;
   }
   .open-business {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
   }
   .other-franchises-section h1 {
     font-size: 25px;
   }
+  .swiper2 {
+    height: 180px !important;
+  }
+  swiper4 {
+    width: 100%;
+  }
+  swiper4 .swiper-slide {
+    width: 97.9% !important;
+  }
   .my-footer .footer-info {
-    font-size: 12px;
+    font-size: 10px;
   }
   .my-footer .footer-info li {
     line-height: 20px;
@@ -994,7 +1052,7 @@
     font-size: 18px;
   }
   .our-blog a {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     color: #fff;
     text-decoration: underline;
@@ -1010,3 +1068,8 @@
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */
+@media only screen and (min-width: 1600px) {
+  .swiper3 .swiper-slide img {
+    width: 109%;
+  }
+}
