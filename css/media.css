@@ -67,10 +67,17 @@
     font-size: 20px;
     margin-bottom: 10px;
   }
+  .heading .profit-from {
+    margin-top: 50px;
+    margin-bottom: -25px;
+  }
+  .heading .eng-price {
+    margin-top: 70px;
+  }
   .eng-from {
-    font-size: 50px;
-    bottom: 10px;
-    left: -110px;
+    font-size: 25px;
+    top: -16px;
+    left: 7px;
   }
   .top-btn {
     font-size: 25px;
@@ -578,6 +585,9 @@
   .heading.pull-right {
     float: left !important;
   }
+  .heading p {
+    margin-left: 5px;
+  }
   .heading h1 {
     font-size: 60px;
     line-height: 50px;
@@ -585,12 +595,6 @@
   .heading .price {
     font-size: 60px;
     margin: 25px 0 30px;
-  }
-  .heading .price::before {
-    display: none;
-  }
-  .eng-from {
-    display: none;
   }
   .top-btn {
     font-size: 22px;
@@ -887,6 +891,9 @@
   .heading .price {
     font-size: 60px;
     margin: 25px 0 30px;
+  }
+  .heading p {
+    margin-left: 5px;
   }
   .top-btn {
     font-size: 20px;

@@ -129,17 +129,7 @@ body {
   margin: 0px 0 65px;
   position: relative;
 }
-.heading .price::before {
-  position: absolute;
-  background: url(../img/png/h-just.png) 0 0 no-repeat;
-  left: -150px;
-  top: -45px;
-  content: "";
-  width: 151px;
-  height: 135px;
-}
 .heading .profit-from {
-  margin-left: 10px;
   margin-top: 50px;
   margin-bottom: -5px;
 }
