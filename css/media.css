@@ -863,6 +863,9 @@
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  .pros-head {
+    margin-top: -60px;
+  }
   .mobile-menu .language-selector {
     display: block;
   }
@@ -974,7 +977,7 @@
     margin-top: -70px;
   }
   .swiper3 .swiper-slide img {
-    height: 65%;
+    height: 70%;
     width: 100%;
   }
   .trade-point-description {
