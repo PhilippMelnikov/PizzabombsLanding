@@ -864,7 +864,7 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .pros-head {
-    margin-top: -60px;
+    margin-top: -60px !important;
   }
   .mobile-menu .language-selector {
     display: block;
